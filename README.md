@@ -1,81 +1,92 @@
-# Turborepo starter
+# 🕹️ Gam3r Store
 
-This is an official starter Turborepo.
+<div align="center">
+<img src="https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/capa.png" width="350" />
 
-## Using this example
+<div data-badges>
+    <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/gam3r-store?style=for-the-badge" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/forks/portfolio-projetos-dev/gam3r-store?style=for-the-badge" alt="GitHub forks" />
+    <img src="https://img.shields.io/github/issues/portfolio-projetos-dev/gam3r-store?style=for-the-badge" alt="GitHub issues" />
+</div>
 
-Run the following command:
+<div data-badges>
+    <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
+    <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/prisma-%232D3748.svg?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+    <img src="https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+    <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+    <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="TailwindCSS" />
+    <img src="https://img.shields.io/badge/jwt-%23323330.svg?style=for-the-badge&logo=json-web-tokens&logoColor=pink" alt="JWT" />
+   <img src="https://img.shields.io/badge/turborepo-%23000000.svg?style=for-the-badge&logo=turborepo&logoColor=white" alt="Turborepo" />
+   <img src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" alt="Yarn" />
+   <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+</div>
+</div>
 
-```sh
-npx create-turbo@latest
-```
+Gam3r Store é uma plataforma de e-commerce especializada em tecnologia, oferecendo uma ampla seleção de produtos que vão desde gadgets e acessórios modernos até equipamentos de alta performance projetados para gamers. Com foco em inovação, qualidade e uma experiência excepcional, a Gam3r Store é o destino ideal para quem busca as últimas tendências tecnológicas e soluções avançadas para o universo gamer.
 
-## What's inside?
+## 🖥️ Como rodar este projeto 🖥️
 
-This Turborepo includes the following packages/apps:
+### Requisitos:
 
-### Apps and Packages
+- Node.js instalado
+- PostgreSQL configurado
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+### Execução:
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+1. Clone este repositório:
 
-### Utilities
+   ```sh
+   git clone https://github.com/portfolio-projetos-dev/gam3r-store.git
+   ```
 
-This Turborepo has some additional tools already setup for you:
+2. Acesse o diretório do projeto:
 
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
+   ```sh
+   cd gam3r-store
+   ```
 
-### Build
+3. Instale as dependências com o comando a seguir na pasta raiz do projeto:
 
-To build all apps and packages, run the following command:
+   ```sh
+   yarn install
+   ```
 
-```
-cd my-turborepo
-pnpm build
-```
+4. Configure as variáveis de ambiente:
 
-### Develop
+   Será necessário criar um arquivo `.env` com as mesmas variáveis de ambiente listadas no arquivo `.env.example` nas pastas `apps/frontend` e `apps/backend`. Cada um desses arquivos deverá ser preenchido com as variáveis de ambiente correspondentes e exemplificadas no arquivo `env.example` de cada pasta.
 
-To develop all apps and packages, run the following command:
+5. Execute as migrações do banco rodando o comando a seguir na pasta prisma que se localiza dentro da pasta `app/backend`:
 
-```
-cd my-turborepo
-pnpm dev
-```
+   ```sh
+   npx prisma migrate dev
+   ```
 
-### Remote Caching
+6. Inicie a aplicação rodando o comando `yarn dev` na pasta raiz da sua aplicação. Esse comando iniciará todos os projetos da sua aplicação.
 
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+7. O projeto estará disponível em [http://localhost:3000](http://localhost:3000).
 
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+## 🗒️ Features do projeto 🗒️
 
-```
-cd my-turborepo
-npx turbo login
-```
+- Autenticação segura com JWT
+- Catálogo de produtos dinâmico
+- Carrinho de compras e checkout integrado
+- Gerenciamento de pedidos e pagamentos
+- Filtros de produtos por categoria, preço e avaliação
+- Integração com múltiplos métodos de pagamento
+- Design responsivo
 
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+![](https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/2.jpg)
 
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+![](https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/3.jpg)
 
-```
-npx turbo link
-```
+![](https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/4.jpg)
 
-## Useful Links
+## 💎 Links úteis 💎
 
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+- [Next.js](https://nextjs.org/docs)
+- [NestJS](https://docs.nestjs.com/)
+- [Prisma](https://www.prisma.io/docs)
+- [PostgreSQL](https://www.postgresql.org/docs/)
+- [Tailwind CSS](https://tailwindcss.com/docs)
