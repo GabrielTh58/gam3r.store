@@ -1,7 +1,7 @@
 # 🕹️ Gam3r Store
 
 <div align="center">
-<img src="https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/capa.png" width="350" />
+<img src="https://github.com/GabrielTh58/gam3r.store/blob/main/.gitassets/capa.png" width="350" />
 
 <div data-badges>
     <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/gam3r-store?style=for-the-badge" alt="GitHub stars" />
@@ -77,11 +77,9 @@ Gam3r Store é uma plataforma de e-commerce especializada em tecnologia, oferece
 - Integração com múltiplos métodos de pagamento
 - Design responsivo
 
-![](https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/2.jpg)
-
-![](https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/3.jpg)
-
-![](https://github.com/portfolio-projetos-dev/gam3r-store/raw/main/.gitassets/4.jpg)
+![](https://github.com/GabrielTh58/gam3r.store/blob/main/.gitassets/2.jpg)
+![](https://github.com/GabrielTh58/gam3r.store/blob/main/.gitassets/3.jpg)
+![](https://github.com/GabrielTh58/gam3r.store/blob/main/.gitassets/4.jpg)
 
 ## 💎 Links úteis 💎
 
