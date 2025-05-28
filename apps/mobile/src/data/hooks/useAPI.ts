@@ -1,8 +1,6 @@
 import { useCallback } from 'react'
 
 const urlBase = process.env.API_URL
-console.log(urlBase);
-
 export default function useAPI() {
     const httpGet = useCallback(async function (caminho: string) {
         const uri = caminho.startsWith('/') ? caminho : `/${caminho}`
