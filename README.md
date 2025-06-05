@@ -4,9 +4,9 @@
 <img src="https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/capa.png" width="350" />
 
 <div data-badges>
-    <img src="https://img.shields.io/github/stars/portfolio-projetos-dev/gam3r-store?style=for-the-badge" alt="GitHub stars" />
-    <img src="https://img.shields.io/github/forks/portfolio-projetos-dev/gam3r-store?style=for-the-badge" alt="GitHub forks" />
-    <img src="https://img.shields.io/github/issues/portfolio-projetos-dev/gam3r-store?style=for-the-badge" alt="GitHub issues" />
+    <img src="https://img.shields.io/github/stars/GabrielTh58/gam3r.store?style=for-the-badge" alt="GitHub stars" />
+    <img src="https://img.shields.io/github/forks/GabrielTh58/gam3r.store?style=for-the-badge" alt="GitHub forks" />
+    <img src="https://img.shields.io/github/issues/GabrielTh58/gam3r.store?style=for-the-badge" alt="GitHub issues" />
 </div>
 
 <div data-badges>
@@ -26,6 +26,30 @@
 
 Gam3r Store é uma plataforma de e-commerce especializada em tecnologia, oferecendo uma ampla seleção de produtos que vão desde gadgets e acessórios modernos até equipamentos de alta performance projetados para gamers. Com foco em inovação, qualidade e uma experiência excepcional, a Gam3r Store é o destino ideal para quem busca as últimas tendências tecnológicas e soluções avançadas para o universo gamer.
 
+---
+
+## 🌐 Acesse online
+
+A aplicação está hospedada em nuvem e pode ser acessada no seguinte 🔗[Link](http://ec2-18-230-217-138.sa-east-1.compute.amazonaws.com:3000)
+
+---
+
+## 🗒️ Features do projeto 🗒️
+
+- Autenticação segura com JWT
+- Catálogo de produtos dinâmico
+- Carrinho de compras e checkout integrado
+- Gerenciamento de pedidos e pagamentos
+- Filtros de produtos por categoria, preço e avaliação
+- Integração com múltiplos métodos de pagamento
+- Design responsivo
+
+![](https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/2.jpg)
+![](https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/3.jpg)
+![](https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/4.jpg)
+
+---
+
 ## 🖥️ Como rodar este projeto 🖥️
 
 ### Requisitos:
@@ -38,13 +62,13 @@ Gam3r Store é uma plataforma de e-commerce especializada em tecnologia, oferece
 1. Clone este repositório:
 
    ```sh
-   git clone https://github.com/portfolio-projetos-dev/gam3r-store.git
+   git clone https://github.com/GabrielTh58/gam3r.store.git
    ```
 
 2. Acesse o diretório do projeto:
 
    ```sh
-   cd gam3r-store
+   cd gam3r.store
    ```
 
 3. Instale as dependências com o comando a seguir na pasta raiz do projeto:
@@ -67,19 +91,7 @@ Gam3r Store é uma plataforma de e-commerce especializada em tecnologia, oferece
 
 7. O projeto estará disponível em [http://localhost:3000](http://localhost:3000).
 
-## 🗒️ Features do projeto 🗒️
-
-- Autenticação segura com JWT
-- Catálogo de produtos dinâmico
-- Carrinho de compras e checkout integrado
-- Gerenciamento de pedidos e pagamentos
-- Filtros de produtos por categoria, preço e avaliação
-- Integração com múltiplos métodos de pagamento
-- Design responsivo
-
-![](https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/2.jpg)
-![](https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/3.jpg)
-![](https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/4.jpg)
+---
 
 ## 💎 Links úteis 💎
 
