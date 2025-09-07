@@ -3,11 +3,6 @@
 <div align="center">
 <img src="https://github.com/GabrielTh58/gam3r.store/raw/main/.gitassets/capa.png" width="350" />
 
-<div data-badges>
-    <img src="https://img.shields.io/github/stars/GabrielTh58/gam3r.store?style=for-the-badge" alt="GitHub stars" />
-    <img src="https://img.shields.io/github/forks/GabrielTh58/gam3r.store?style=for-the-badge" alt="GitHub forks" />
-    <img src="https://img.shields.io/github/issues/GabrielTh58/gam3r.store?style=for-the-badge" alt="GitHub issues" />
-</div>
 
 <div data-badges>
     <img src="https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
@@ -24,6 +19,7 @@
 </div>
 </div>
 
+<br>
 Gam3r Store é uma plataforma de e-commerce especializada em tecnologia, oferecendo uma ampla seleção de produtos que vão desde gadgets e acessórios modernos até equipamentos de alta performance projetados para gamers. Com foco em inovação, qualidade e uma experiência excepcional, a Gam3r Store é o destino ideal para quem busca as últimas tendências tecnológicas e soluções avançadas para o universo gamer.
 
 ---
